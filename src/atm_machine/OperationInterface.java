@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package atm_machine;
+package ATM_Machine;
 
-/**
- *
- * @author Vidyanshu
- */
-public class OperationInterface {
-    
+public interface OperationInterface {
+
+    public void viewBalance();
+
+    public void withdrawAmount(double withdrawAmount);
+
+    public void depositAmount(double depositAmount);
+
+    public void viewMiniStmt();
+
 }
